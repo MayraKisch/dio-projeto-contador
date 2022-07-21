@@ -1,0 +1,78 @@
+body{
+  color:lightblue;
+  background-color: #000000;
+  background-image:url(../img/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+
+}
+img {
+  width:200px;
+  display:flex;
+}
+.container {
+  display: flex;
+  border:2px solid lightblue;
+  flex-direction:column;
+  margin-top: 200px;
+  margin-left: 500px;
+  padding: 20px;
+  width:320px;
+  background-color:#000000;
+  opacity:0.87;
+}
+#counter {
+  display: flex;
+  width: 320px;
+  flex-grow: center;
+}
+
+.contador {
+  display: flex;
+  justify-content:center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.titulo h1 {
+  display: block;
+  border:2px solid lightblue;
+  width:200px;
+  text-align:center; 
+  
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color:lightblue;
+  background-color:black;
+  font-size: 25px;
+  font-weight: 600;
+  border: 1px solid lightblue;
+}
+
+button:hover {
+  color:black;
+  background-color: lightblue;
+}
+#currentNumber {
+ margin: 0 50px;
+ font-size:25px;
+}
+
+.firstColor {
+  color: rgb(169, 99, 18);
+  font-weight: bold;
+}
+
+.secondColor {
+  color: rgb(55, 123, 42);
+  font-weight: bold;
+}
